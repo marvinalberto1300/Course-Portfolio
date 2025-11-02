@@ -10,8 +10,8 @@ body{
     margin: 0 auto;
     padding: 30px;
     background-color: darkolivegreen;
-    border: 5px;
-    border-color: whitesmoke;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
 }
 .card h1{
     color: whitesmoke;
