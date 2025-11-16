@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+    line-height: 2;
+    background-color: #fafafa;
+    color: #1F2937;
+    padding: 32px 16px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1em;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 16px;
+    color: #6B7280;
+    margin-bottom: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+.button-section {
+    padding: 32px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.button-section p {
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+button {
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.button-01 {
+    background-color: #cc1400;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #cc4400;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.button-01:hover {
+    background-color: #ffffff;
+    color: #cc8800;
+    border-color: #cc8f00;
+}
+
+.button-02 {
+    background-color: #ed7e0f;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #cd890a;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-02:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.button-03 {
+    color: #141313;
+    background-color: #f0f02b;
+    padding: 16px;
+    border: 2px solid #aef02b;
+    font-family: sans-serif;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.button-03:hover {
+    transform: translateX(15px);
+    background-color: #f0f02b;
+}
+
+.button-04 {
+    background-color: #3bec27;
+    color: #fafafa;
+    padding: 16px;
+    border:2px dotted#20d59f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out
+}
+
+.button-04:hover{
+    background-color: #fafafa;
+    color: #0e0201;
+}
+
+.button-05{
+    background-color: #237be0;
+    color: #0e0201;
+    padding: 16px;
+    border: 10px dotted #8320d5;
+    font-family: 'Times New Roman', Times, serif;
+    transition: box-shadow 0.5s ease, transform 0.5 ease;
+}
+
+.button-05:hover{
+    box-shadow: 0 8px 16px rgba(36, 5, 207, 0.50);
+    transform: translateY(10px);
+}
+
+.button-06{
+   background-color: #b524ac;
+   color: #ffffff;
+   padding: 16px;
+   border: none;
+   font-family: cursive; 
+   font-size: 30px;
+   transition: transform 0.4 linear, background-color 0.4 linear;
+}
+
+.button-06:hover{
+    transform: scale(2.0);
+    background-color: #b524ac;
+}
