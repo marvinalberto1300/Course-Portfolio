@@ -98,20 +98,20 @@ ul{
 }
 
 footer {
-  background: #333;       /* dark background */
-  color: #fff;               /* white text */
-  text-align: center;        /* center content */
-  padding: 1em;              /* spacing */
-  margin-top: 2em;           /* space above footer */
+  background: #333;    
+  color: #fff;         
+  text-align: center;     
+  padding: 1em;           
+  margin-top: 2em;       
 }
 
 footer a {
-  color: #fff;            /* accent color for links */
+  color: #fff;       
   text-decoration: none;
   margin: 0 0.5em;
   transition: color 0.3s ease;
 }
 
 footer a:hover {
-  color: #20c76b;               /* hover effect */
+  color: #20c76b;          
 }
