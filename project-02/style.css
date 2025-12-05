@@ -96,3 +96,22 @@ ul{
     padding-left: 0;
     margin: 0;
 }
+
+footer {
+  background: #333;       /* dark background */
+  color: #fff;               /* white text */
+  text-align: center;        /* center content */
+  padding: 1em;              /* spacing */
+  margin-top: 2em;           /* space above footer */
+}
+
+footer a {
+  color: #fff;            /* accent color for links */
+  text-decoration: none;
+  margin: 0 0.5em;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #20c76b;               /* hover effect */
+}
