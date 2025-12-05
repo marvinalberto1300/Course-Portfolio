@@ -115,3 +115,16 @@ footer a {
 footer a:hover {
   color: #20c76b;          
 }
+
+.banner {
+    background: linear-gradient(to right, #004466, #20c76b);
+    text-align: center;  
+    margin: 40px 0;      
+}
+
+.banner-image {
+    width: 100%;        
+    max-width: 800px;   
+    height: auto;
+    display: inline-block;
+}
